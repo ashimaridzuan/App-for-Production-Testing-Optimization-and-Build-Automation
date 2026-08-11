@@ -1,0 +1,35 @@
+{
+  "name": "coding-project",
+  "version": "1.0.0",
+  "description": "To optimize and test the front-end web application",
+  "source": "./index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "chai": "^6.2.2",
+    "cypress": "^15.20.1",
+    "eslint": "^10.8.1",
+    "globals": "^17.9.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.3.0",
+    "parcel": "^2.16.4"
+  },
+  "allowScripts": {
+    "lmdb@2.8.5": true,
+    "@parcel/watcher@2.6.0": true,
+    "@swc/core@1.15.47": true,
+    "msgpackr-extract@3.0.4": true,
+    "cypress@15.20.1": true
+  }
+}
