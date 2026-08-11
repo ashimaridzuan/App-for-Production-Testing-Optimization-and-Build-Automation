@@ -1,3 +1,2 @@
-# Purpose of this Folder
-
-This folder should contain the scaffolded project files to get a student started on their project. This repo will be added to the Classroom for students to use, so please do not have any solutions in this folder.
+Testing and optimizing front-end web application.
+Including setting up dependencies, writing tests using Parcel and Gulp to optimize, automate, and prepare the application for production.
