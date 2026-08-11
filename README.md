@@ -1,2 +1,2 @@
 # ashima-tech-portfolio
-Hands-On Project Showcases
+Hands-On Project
