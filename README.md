@@ -1,3 +1,11 @@
 # Purpose of this Folder
 
-This folder should contain the scaffolded project files to get a student started on their project. This repo will be added to the Classroom for students to use, so please do not have any solutions in this folder.
+-Set up project dependencies required for development, testing, optimisation, and builds.
+-Write automated tests to verify application behaviour and improve software reliability.
+-Optimise performance and code quality through debugging, refactoring.
+-Use Parcel to bundle the applications and generate an optimised production build.
+-Use Gulp to automate repetitive development and production tasks.
+-Establish a maintainable front-end workflow using package management, task runners, module bundling, testing and performance optimisation.
+
+
+
