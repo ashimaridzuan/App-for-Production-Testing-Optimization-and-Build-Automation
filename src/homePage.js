@@ -1,13 +1,15 @@
 //DO NOT CHANGE ANYTHING IN THIS FILE//
 // This file is responsible for loading the home page
-//Imports image for homepage
-import homePageImage from "../images/homePage.png";
+// Image path for homepage (use relative path so it works without a bundler)
 //Helper functions
 import {
   createHeader,
   createElement,
   createImage,
 } from "./utilityRenderFunctions.js";
+
+//image render according to Parcel's official documentation recommends
+const homePageImage = new URL ("../images/homePage.png", import.meta.url).href;
 
 //Renders home page
 const renderHomePage = () => {
@@ -25,8 +27,8 @@ const renderHomePage = () => {
   );
 
   //Creates elements
-  const image = createImage(homePageImage, "Desk of laptops");
-
+  const image = createImage(homePageImage, "Desk of laptops"); 
+  //image.src=homePageImage;
   //Container for elements
   const homeContainer = document.createElement("div");
   homeContainer.className = "homeContainer";

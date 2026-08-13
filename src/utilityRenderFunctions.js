@@ -1,13 +1,3 @@
-//TODO
-//Note: You will not be able to run parcel without first fixing these errors
-// Check for ESLint errors and format with Prettier.
-// This file contains a number of helper functions that create DOM elements.
-// These functions help prevent code repetition.
-// While the functions are mostly correct, there are some errors, the code is messy and hard to read.
-// Add configuration with ESLint for rules that disallow 'var', unused variables, require a semicolon  
-// and at least two other rules: https://eslint.org/docs/latest/rules/
-// Use ESLint to identify the errors and Prettier to format the code.
-
 // Create a general element with specified text
 const createElement = (elementType, text) => {
   var  element = document.createElement(elementType);
@@ -17,11 +7,11 @@ const createElement = (elementType, text) => {
 
 //Creates images with alt
 const createImage = (url, alt) => {
-  var img = document.createElement('img');
-  img.src = url;
-  img.alt == alt;
-  return img
-}
+  const image = document.createElement("img");
+  image.src = url;
+  image.alt = alt;
+  return image;
+};
 
 // Create a header element with specified text and data attribute
 const createHeader = (headerType, text, dataCy) => {    
@@ -31,20 +21,13 @@ const createHeader = (headerType, text, dataCy) => {
 // Create a button that toggles the visibility of the form
 const createToggleButton = (text, element) => { const button = document.createElement("button");
 button.textContent = text
-  button.addEventListener("click",()  => {
-    
-    
-    
-    
-    
+  button.addEventListener("click",()  => {   
     element.classList.toggle("notVisible");
   });
-
   return button;
 };
 
-// Form Helper Functions
-// Helper function to create a label element
+// Form Helper Functions // Helper function to create a label element
 const createLabel = (text, htmlFor) => {
   var label = document.createElement("label");
    label.textContent = text
