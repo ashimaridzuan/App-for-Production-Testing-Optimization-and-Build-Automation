@@ -1,6 +1,6 @@
 # Purpose of this Folder
 
--Set up project dependencies required for development, testing, optimisation, and builds.
+-Set up project dependencies required for development, testing, optimisation, and builds./
 -Write automated tests to verify application behaviour and improve software reliability.
 -Optimise performance and code quality through debugging, refactoring.
 -Use Parcel to bundle the applications and generate an optimised production build.
