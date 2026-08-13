@@ -4,10 +4,14 @@
   "description": "To optimize and test the front-end web application",
   "source": "./index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
+    "start": "parcel index.html --port 1234",
+    "build": "parcel build index.html --dist-dir dist",
     "gulp": "gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha \"test/**/*.js\"",
+    "mocha": "mocha \"test/**/*.js\"",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress": "start-server-and-test start http://localhost:1234 cypress:run"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +27,8 @@
     "gulp-cli": "^3.1.0",
     "gulp-shell": "^0.8.0",
     "mocha": "^11.3.0",
-    "parcel": "^2.16.4"
+    "parcel": "^2.16.4",
+    "start-server-and-test": "^3.0.12"
   },
   "allowScripts": {
     "lmdb@2.8.5": true,
